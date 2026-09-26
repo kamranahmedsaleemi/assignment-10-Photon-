@@ -1,0 +1,131 @@
+.navbar{
+    display: flex;
+    
+
+}
+.centernav{
+     text-decoration: solid;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: grey;
+}
+.text{  
+    margin-left: 4%;
+    margin-right: 10%;
+    text-decoration: solid;
+    color: black;
+}
+.icons{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 14%;
+    gap: 30px;
+}
+
+.pic{
+ display: flex;
+    justify-content: flex-start;
+    height:600px;
+    margin-top: 1%;
+    
+gap: 20px;
+}
+.text-block1{
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 40%;
+    
+}
+.text-link1{
+  position: absolute;
+    color: white;
+    left: 9%;
+    top: 50%;
+    border: solid;
+    width: 10%;
+    text-align: center;
+}
+.text-block2{
+    position: absolute;
+     color: white;
+    left: 40%;
+    top: 40%;
+}
+.text-link2{
+  position: absolute;
+    color: white;
+    left: 40%;
+    top: 50%;
+    border: solid;
+    width: 10%;
+    text-align: center;
+}
+.text-block3{
+    position: absolute;
+     color: white;
+    left: 71%;
+    top: 40%;
+    font: size 500%;
+}
+.text-link3{
+  position: absolute;
+    color: white;
+    left: 70%;
+    top: 50%;
+    border: solid;
+    width: 10%;
+    text-align: center;
+}
+.text-block4{
+    position: absolute;
+     color: white;
+    left: 100%;
+    top: 40%;
+  
+}
+.text-link4{
+  position: absolute;
+    color: white;
+    left: 103%;
+    top: 50%;
+    
+    border: solid;
+    width: 10%;
+    text-align: center;
+}
+.options {
+    display: none;
+    width: 90%;
+    text-align: center;
+    background-color: white;
+}
+
+.dropdown:hover .options {
+    display: block;
+    position: absolute;
+    border: solid black;
+    color: aliceblue;
+    
+}
+.dropdown{
+    color: grey;
+    position: absolute;
+    left: 64%;
+    top: 5%;
+}
+.options-2{
+    display: none;
+     width: 90%;
+    text-align: center;
+    background-color: white;
+    view-timeline: 20%;
+
+}
+.dropdown-2:hover .options-2{
+    display: block;
+    position: absolute;
+    left: 60%;
+    border: solid black;
+    background-color: aliceblue;
+}
